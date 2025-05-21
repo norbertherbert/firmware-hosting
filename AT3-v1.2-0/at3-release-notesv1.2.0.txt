@@ -1,0 +1,89 @@
+Release 1.2.0
+=============
+Date
+----
+May 14, 14 2025.
+
+
+AOS-SDK
+-------
+AOS: 2.4-9. Built on: May 6 2025.
+
+
+BLE firmware
+------------
+stm32wb5x_BLE_Stack_full_fw.bin version 1.17.3.
+Flash address: 0x080CE000
+
+
+Bug fix/ Enhancements
+---------------------
+AGM-772. AT3. Add private APN support
+AGM-803. AT3. Wrong UTC Time given by the cellular modem
+AGM-816. AT3. Device reset in BLE CLI mode during conf save operation 
+AGM-833. AT3. Set a list of parameters in AT3 which cannot be revert during a factory reset   
+AGM-842. AT3: ACI\_L2CAP\_CONNECTION\_UPDATE\_RESP received with status error 1
+AGM-853. AT3. Reopen closed sockets when the modem is still connected
+AGM-835. AT3: Add new BLE simple command to save config
+AGM-839. AT3: Improve BLE set/read parameters characteristic
+AGM-847. AT3. Enhance socket management to overcome DNS issue
+AGM-850. AT3. Update DIS service
+AGM-854. AT3. Send in BLE characteristic model number the global crc
+AGM-865. AT3. BLE connectivity slow done when lot of data is sent
+
+
+
+Release 1.1.0
+=============
+Date
+----
+April, 1 2025.
+
+
+AOS-SDK
+-------
+AOS: 2.4-6. Built on: Mar 20 2025, 09:18:41
+
+
+BLE firmware
+------------
+stm32wb5x_BLE_Stack_full_fw.bin version 1.17.3.
+Flash address: 0x080CE000
+
+
+Bug fix/ Enhancements
+---------------------
+AGM-762. AT3. LoRa shutdown after switch to cellular back up
+AGM-821. AT3. Incorrect LoRa consumption if monitoring period is short
+AGM-823. AT3. Enhance the network connection switching
+AGM-827. AT3. Timout introduced by AGM-823 too short
+AGM-818. AT3: Rename the parameter cell_cnx_nw_lost_timeout to cell_cnx_nw_reconnect_timeout
+AGM-819. AT3. Typo of the cli\_password parameter in group 1 since we did the revert
+AGM-829. AT3. Make release 1.1.0
+
+
+
+
+Release 1.0.0
+=============
+Date
+----
+March, 20 2025.
+
+
+AOS-SDK
+-------
+AOS: 2.4-6. Built on: Mar 20 2025, 09:18:41
+
+
+BLE firmware
+------------
+stm32wb5x_BLE_Stack_full_fw.bin version 1.17.3.
+Flash address: 0x080CE000
+
+
+Bug fix
+-------
+Initial version
+
+
